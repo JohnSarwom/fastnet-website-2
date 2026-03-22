@@ -1,11 +1,13 @@
-import { useRef } from "react";
-
 export default function HeroCanvas() {
-  const heroRef = useRef(null);
-
   return (
-    <section className="fn-hero" ref={heroRef}>
+    <section className="fn-hero">
+      {/* Static background elements */}
+      <div className="fn-hero-grid" />
       <div className="fn-hero-glow" />
+      <div className="fn-hero-glow-2" />
+      <div className="fn-hero-orb fn-hero-orb-1" />
+      <div className="fn-hero-orb fn-hero-orb-2" />
+      <div className="fn-hero-orb fn-hero-orb-3" />
 
       <div className="fn-hero-pill">
         <span className="fn-blink" />
@@ -51,7 +53,7 @@ export default function HeroCanvas() {
             Digitalising <span>Businesses</span><br />Across PNG
           </div>
           <div className="fn-prog-track"><div className="fn-prog-fill" style={{ width: "87%" }} /></div>
-          <div className="fn-fc-note">87% of clients report improved efficiency after FASTNet's digital transformation 🚀</div>
+          <div className="fn-fc-note">87% of clients report improved efficiency after FASTNet's digital transformation</div>
           <div style={{ marginTop: "1rem", display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
             {["Networks ✓", "Websites ✓", "Training ✓"].map((t) => (
               <span key={t} style={{ background: "rgba(255,255,255,.1)", borderRadius: "6px", padding: ".3rem .7rem", fontSize: ".7rem", fontWeight: 600 }}>{t}</span>
