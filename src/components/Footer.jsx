@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="fn-footer">
       <div>
         <div className="fn-flogo">
-          <span>FAST</span>Net Limited
+          FAST<span>Net</span> Limited
         </div>
         <p style={{ marginTop: ".3rem" }}>PO Box 980, Kimbe 621, WNBP</p>
       </div>

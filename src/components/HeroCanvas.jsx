@@ -70,8 +70,8 @@ export default function HeroCanvas() {
           <div className="fn-av-stack">
             <div className="fn-av-row">
               <div className="fn-av" style={{ background: "#4f7bff" }}>A</div>
-              <div className="fn-av" style={{ background: "#00d4ff", marginLeft: "-6px" }}>B</div>
-              <div className="fn-av" style={{ background: "#7c5cbf", marginLeft: "-6px" }}>C</div>
+              <div className="fn-av" style={{ background: "#f0932b", marginLeft: "-6px" }}>B</div>
+              <div className="fn-av" style={{ background: "#f6b93b", marginLeft: "-6px" }}>C</div>
             </div>
             <span className="fn-av-txt">90% Clients Satisfied</span>
           </div>

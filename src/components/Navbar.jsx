@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="fn-nav">
       <a className="fn-logo" href="#">
-        <span>FAST</span>Net
+        FAST<span>Net</span>
       </a>
       <ul className="fn-nav-links">
         {NAV_LINKS.map((link) => (

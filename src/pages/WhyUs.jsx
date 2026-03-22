@@ -5,7 +5,7 @@ export default function WhyUs() {
     <section id="why" className="fn-why">
       <div className="fn-why-inner">
         <div>
-          <div className="fn-sec-pill">Why FASTNet</div>
+          <div className="fn-sec-pill" style={{ background: "var(--pill-orange)", borderColor: "rgba(240, 147, 43, .3)" }}>Why FASTNet</div>
           <h2 className="fn-sec-title">Your Complete IT Partner<br />Across PNG</h2>
           <p className="fn-sec-sub">We go beyond just connectivity — FASTNet handles every layer of your technology needs, from infrastructure to training, so you can focus on running your business.</p>
           <div className="fn-why-pts">

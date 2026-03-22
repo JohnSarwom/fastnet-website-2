@@ -13,9 +13,9 @@ export default function About() {
           <a href="#contact" className="fn-btn-main">Get Started <span className="fn-btn-arr">→</span></a>
         </div>
         <div className="fn-about-cards">
-          {ABOUT_CARDS.map((c) => (
+          {ABOUT_CARDS.map((c, i) => (
             <div key={c.badge} className="fn-vm-card">
-              <div className="fn-vm-badge">{c.badge}</div>
+              <div className="fn-vm-badge" style={i === 1 ? { background: "var(--pill-orange)", color: "var(--orange)" } : {}}>{c.badge}</div>
               <h3>{c.title}</h3>
               <p>{c.desc}</p>
             </div>
